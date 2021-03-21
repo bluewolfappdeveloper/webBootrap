@@ -1,0 +1,178 @@
+html{
+    font-size: 11pt;
+    font-family: Helvetica, sans-serif;
+}
+
+.container{
+    margin-top: 45px;
+}
+
+.control-nav{
+    display: block;
+    top:0;
+    right: 0;
+}
+
+.control-nav a{
+    text-decoration: none;
+}
+
+.control-nav img{
+    margin-left: 12px;
+}
+
+.menu {
+    width: 100%;
+    margin-top: 45px;
+}
+
+.menu-items{
+    text-decoration: none !important;
+    text-justify: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 18pt;
+    font-weight: 300;
+}
+
+.imgBg{
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+
+.inputSearch{
+    border: none;
+    background-color: transparent;
+    padding: 10px 5px;
+    width: 70%;
+}
+
+.inputSearch:focus{
+    outline: none;
+   
+}
+
+.btnSearch{
+    text-decoration: none  !important;
+    margin-left: 5px;
+    color:black
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0c4c3;
+    padding: 15px 15px;
+}
+
+.items > img{
+    width: 100%;
+}
+
+.name{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+.price{
+    text-decoration: line-through;
+    font-size: 13pt;
+    font-weight: 500;
+}
+
+hr{
+    width: 100%;
+    border: 0.5px solid #fff;
+    margin-top: 20px;
+
+}
+
+.addToCart{
+    margin: 10px 0px;
+}
+
+#product .row:last-child{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#section_feature{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #6a3924;
+    width: 100%;
+    margin-bottom: 130px;
+}
+
+
+.feature{
+    display:flex;
+    flex-direction: column;
+    margin: 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+.icon-feature{
+    margin:30px;
+}
+
+.main-feature{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    margin: 20px;
+    margin-top: 0;
+    font-size: 16pt;
+}
+
+.sub-feature{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+    font-size: 10pt;
+}
+
+#footer{
+    padding-bottom:40px;
+}
+
+.introduce-footer{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.readmore-footer{
+    text-decoration: none  !important;
+    margin-bottom: 100px;
+    
+}
+
+.heading{
+    font-size: 15pt;
+    font-weight: 600;
+}
+
+.linkusefull{
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+}
+
+.link{
+    text-decoration: none !important;
+    color: #000;
+}
+
+.instagram{
+    display: inline;
+}
+
+.imgInstagram{
+    margin-right: 12px;
+}
